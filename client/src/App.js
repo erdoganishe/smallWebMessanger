@@ -1,11 +1,16 @@
-import LoginSignup from './Components/LoginSignup/LoginSignup';
+import Chat from './Components/Chat/Chat';
 import './App.css';
+import ChatList from './Components/ChatList/ChatList';
 
 function App() {
   return (
-    <div>
-      <LoginSignup/>
-    </div>
+    <div className="container">
+
+    <ChatList/>
+
+    <Chat/>
+
+  </div>
   );
 }
 
